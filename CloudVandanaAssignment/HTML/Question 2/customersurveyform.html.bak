@@ -1,0 +1,78 @@
+
+<html>
+ <head>
+  <title>Document</title>
+  <script src="customer.js"></script>
+  <link rel="stylesheet"href="customersurvey.css"></link>
+ </head>
+ <body style="background-color:blue" >
+ <div>
+ <center>
+ <h1 style="color:white">Customer Survey Form</h1>
+ <fieldset style="width:500px;height:450px;background-color:white"><br>
+  <form id="ff"required>
+  <table>
+  <tr>
+  <td>
+  <label style="font-size:20px">FirstName:</label>
+  <input type="text"required placeholder="firstname"id="firstname"><br><br></input>
+  </td>
+  </tr>
+   <tr>
+  <td>
+ <label style="font-size:20px">LastName:</label>
+  <input type="text"placeholder="lastname"required id="lastname" ><br><br></input>
+  </td>
+  </tr>
+   <tr>
+  <td>
+  <label style="font-size:20px">Date Of Birth:</label>
+  <input type="date"placeholder="date of birth"required title="enter your date of birth"id="dateofbirth"><br><br></input>
+  </td>
+  </tr>
+   <tr>
+  <td>
+  <label style="font-size:20px">Country:</label>
+ <select><br><br>
+ <option value="">Select Country</option>
+ <option value="ii">India</option>
+ <option value="aa">Afghanisthan</option>
+ <option value="bb">Bihar</option>
+  </select><br><br>
+  </td>
+  </tr>
+   <tr>
+   <td>
+  <label style="font-size:20px">Gender:</label>
+  <input type="checkbox"id="male" required onclick="check(c1)"value="yes"name="check">Male</input>
+  <input type="checkbox" id="female" required onclick="check(c2)"value="no"name="check">Female</input><br><br>
+  </td>
+  </tr>
+   <tr>
+  <td><label style="font-size:20px">Profession:</label>
+  <input type="text"placeholder="profession"required id="profession"><br><br></input>
+  </td>
+  </tr>
+   <tr>
+  <td>
+  <label style="font-size:20px">Email:</label>
+  <input type="email"placeholder="email"required id="email"><br><br></input>
+  </td>
+  </tr>
+   <tr>
+  <td>
+  <label style="font-size:20px">MobileNumber:</label>
+  <input type="number"placeholder="mobilenumber"required id="mobilenumber"><br><br></input>
+  </td>
+  </tr>
+   </table>
+   <div id="ss">
+  <input type="submit"value="submit"class="sub"onclick="display()"></input>
+  <input type="reset"value="reset"class="sub"></input>
+  </div>
+  </form> 
+  </fieldset>
+   </center>
+  </div>
+ </body>
+</html>

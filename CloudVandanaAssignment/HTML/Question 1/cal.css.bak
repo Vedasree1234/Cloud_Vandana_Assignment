@@ -1,0 +1,81 @@
+.container {
+position:relative;
+background-color:black;
+width: 300px;
+ text-align: center;
+ padding: 10px;
+ height:350px;
+ border-radius:20px;
+box-shadow:10px 10px 10px grey;
+}
+.items
+{
+position:absolute;
+top:150px;
+display:grid;
+grid-template-columns:60px 60px 60px 60px;
+grid-template-rows:40px 40px 40px 40px;
+width:400px;
+height:400px;
+grid-column-gap:15px;
+grid-row-gap:10px;
+transform:scale(0.9);
+}
+
+body
+{
+position:sticky;
+display:flex;
+justify-content:center;
+align-items:center;
+height: 100vh;
+margin: 0;
+}
+#display
+{
+position:absolute;
+width:200px;
+height:40px;
+font-size:20px;
+text-align:right;
+border:0px;
+color:white;
+background:transparent;
+top:120px;
+left:100px;
+}
+button
+{
+color:white;
+background-color:black;
+font-size:25px;
+border:none;
+}
+button:hover
+{
+transform:scale(0.9);
+background-color:grey;
+color:white;
+}
+#clear
+{
+position:absolute;
+font-size:25px;
+background-color:red;
+top:120px;
+right:240px;
+}
+.operator
+{
+background-color:orange;
+}
+.operator:hover
+{
+color:white;
+background-color:orange;
+}
+#equals
+{
+background-color:LightGreen;
+color:white;
+}

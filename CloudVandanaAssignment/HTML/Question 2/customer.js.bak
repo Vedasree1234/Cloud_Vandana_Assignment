@@ -1,0 +1,50 @@
+function mobile()
+{
+	let inputbox=document.getElementById('num1')
+	let mobile=input.value
+		let nlength=mobile.length
+		if(nlength==10)
+	    {
+		 document.write("valid number")
+		}
+		 else
+	{
+			 document.write("invalid number")
+	}
+
+}
+function display()
+{
+	
+	var fname=document.getElementById("firstname");
+	var lname=document.getElementById("lastname");
+	var dob=document.getElementById("dateofbirth");
+	var profession=document.getElementById("profession");
+	var email=document.getElementById("email");
+	var mobilenumber=document.getElementById("mobilenumber");
+	
+	var firstname=fname.value;
+	var lastname=lname.value;
+	var dob=dob.value;
+	var prof=profession.value;
+	var email1=email.value;
+	var mobilenum=mobilenumber.value;
+		window.alert("FirstName: "+firstname+"\n LastName: "+lastname+"\n DOB: "+dob+"\n Profession: "+prof+"\n Email: "+email1+"\n Mobile Number: "+mobilenum+"\n Gender: ");
+	
+	
+}
+function check(c1)
+{
+	if((this).is(":checked")==true)
+	{
+		c2=false;
+	}
+}
+
+
+
+
+
+
+
+
